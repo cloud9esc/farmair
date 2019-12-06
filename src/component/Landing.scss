@@ -1,0 +1,19 @@
+.Landing {
+  height: 100vh;
+}
+
+.Landing__title {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  p {
+    text-align: start;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  img {
+    //height: 500px;
+    width: 100%;
+  }
+}
