@@ -3,12 +3,14 @@ import React from 'react';
 import './App.css';
 import { Header } from './component/Header';
 import { Landing } from './component/Landing';
+import { About } from './component/About';
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <Header />
       <Landing />
+      <About />
     </div>
   );
 }

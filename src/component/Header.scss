@@ -9,6 +9,7 @@
 
 .Header__logo {
   vertical-align: middle;
+  text-align: start;
   img {
     height: 20px;
   }
@@ -17,7 +18,7 @@
 .Header__menu {
   padding-top: 5px;
   text-align: end;
-  font-family: 'Josefin Sans', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;;
+  font-family: 'Josefin Sans', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
   ul {
     li {
       margin-left: 60px;
