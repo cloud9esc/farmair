@@ -1,0 +1,31 @@
+.ValueCard {
+  max-width: 260px;
+  height: 420px;
+  background-color: white;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 0 8px 2px rgba($color: #000000, $alpha: 0.1);
+}
+
+.ValueCard__image {
+  margin-bottom: 12px;
+  img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+}
+.ValueCard__types {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+
+  h5 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #777;
+  }
+}
