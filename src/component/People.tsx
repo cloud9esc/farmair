@@ -1,25 +1,23 @@
 import React from 'react';
-import './Service.scss';
+import "./People.scss";
 
 import { PageTitle } from './PageTitle';
-import { ServiceCarousel } from './ServiceCarousel';
 
-const Service = () => {
+const People = () => {
   return (
-    <div className="Service">
+    <div className="People">
       <div className="container">
         <div className="row">
           <div className="Service__pagetitle col-1">
-            <PageTitle title="SERVICE" />
+            <PageTitle title="PEOPLE" />
           </div>
           <div className="col-10">
-            <h3 className="Service__title">TERRAN</h3>
-            <ServiceCarousel />
+
           </div>
         </div>
       </div>
     </div>
   )
-}
+};
 
-export {Service};
+export { People };

@@ -5,6 +5,7 @@ import { Header } from './component/Header';
 import { Landing } from './component/Landing';
 import { About } from './component/About';
 import { Service } from './component/Service';
+import { People } from './component/People';
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
       <Landing />
       <About />
       <Service />
+      <People />
     </div>
   );
 }
