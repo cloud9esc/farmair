@@ -6,4 +6,7 @@
   font-size: 40px;
   padding-bottom: 10px;
   font-weight: bold;
+  @media (max-width: 1500px) {
+    display: none;
+  }
 }

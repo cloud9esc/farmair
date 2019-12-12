@@ -1,9 +1,44 @@
 .MemberCard {
-  max-width: 30vw;
+  margin-bottom: 40px;
+  max-width: 29vw;
+  min-width: 500px;
+  height: 250px;
+  display: inline-block;
+
+  @media (min-width: 1940px) {
+    max-width: 550px;
+  }
+  @media (max-width: 1500px) {
+    max-width: 60vw;
+  }
 }
 
+
 .MemberCard__image {
+  float: left;
+  max-width: 250px;
+  min-width: 100px;
+  margin-right: 24px;
   img {
+    border-radius: 50%;
     width: 100%;
+  }
+}
+
+.MemberCard__section {
+  text-align: left;
+
+  .MemberCard__name {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .MemberCard__role {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .MemberCard__comment {
+    font-size: 16px;
   }
 }
