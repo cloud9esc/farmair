@@ -55,6 +55,22 @@ const members: Member[] = [
 ]
 
 
+//서비스 소개 내용입니다.
+export interface Service {
+  title: string;
+  imageSource: string;
+  description: string[];
+}
 
-export {cards, members};
+const services: Service[] = [
+  {
+    title: "TERRAN",
+    imageSource: "",
+    description: ["테란은 농업 데이터 분석을 통한 농산물 가격예측 서비스입니다."]
+  }
+]
+
+
+
+export {cards, members, services};
 
