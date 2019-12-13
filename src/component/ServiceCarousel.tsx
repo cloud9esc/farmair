@@ -3,6 +3,7 @@ import React from 'react';
 import "./ServiceCarousel.scss";
 
 import Slider from "react-slick";
+import { services } from '../info';
 
 class ServiceCarousel extends React.Component {
   slider: Slider | null | undefined;
@@ -47,18 +48,19 @@ class ServiceCarousel extends React.Component {
             alt="go to next" />
         </button>
         <Slider ref={el => { this.slider = el; }} {...settings}>
-          <div className="ServiceCarousel__panel">
-            <h1>1</h1>
-          </div>
-          <div className="ServiceCarousel__panel">
-            <h1>2</h1>
-          </div>
-          <div className="ServiceCarousel__panel">
-            <h1>3</h1>
-          </div>
-          <div className="ServiceCarousel__panel">
-            <h1>4</h1>
-          </div>
+          {services.map(item => (
+            <div className="ServiceCarousel__panel" key={item.title}>
+              <h1 className="ServiceCarousel__title">{item.title}</h1>
+              <div className="ServiceCarousel__section">
+                <div className="ServiceCarousel__logo">
+                  <img src={item.imageSource} alt={item.title} />
+                </div>
+                <div className="ServiceCarousel__description">{item.description.map((line, i) => (
+                  <div key={i} >{line}</div>
+                ))}</div>
+              </div>
+            </div>
+          ))}
         </Slider>
       </div>
     )

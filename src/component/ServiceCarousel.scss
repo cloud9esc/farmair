@@ -3,9 +3,47 @@
   .ServiceCarousel__panel {
     height: 60vh;
     width: 300px;
-    background-color: gray;
-    margin-left: 10px;
-    margin-right: 10px;
+    .ServiceCarousel__title {
+      margin-bottom: 40px;
+      font-size: 40px;
+      font-weight: bold;
+      font-family: 'Josefin Sans', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    }
+    .ServiceCarousel__section {
+      height: 70%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media (max-width: 1200px) {
+        display: inline-block;
+      }
+    }
+    
+    .ServiceCarousel__logo {
+      float: left;
+      margin-left: 30px;
+      margin-right: 100px;
+      min-width: 20%;
+      @media (max-width: 1200px) {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 80px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .ServiceCarousel__description {
+      width: 70%;
+      div {
+        font-size: 16px;
+        margin-bottom: 12px;
+        text-align: left;
+        word-break: keep-all;
+      }
+    }
   }
 }
 
@@ -33,3 +71,4 @@
 .next {
   right: -4vw;
 }
+
