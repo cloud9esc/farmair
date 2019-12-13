@@ -12,8 +12,8 @@ const Service = () => {
           <div className="Service__pagetitle col-1">
             <PageTitle title="SERVICE" />
           </div>
-          <div className="col-10">
-            <h3 className="Service__title">TERRAN</h3>
+          <div className="Service__slide col-10">
+            {/* <h3 className="Service__title">TERRAN</h3> */}
             <ServiceCarousel />
           </div>
         </div>
