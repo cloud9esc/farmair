@@ -4,7 +4,7 @@ import { PageTitle } from './PageTitle';
 
 const Contact = () => {
   return (
-    <div className="Contact">
+    <div className="Contact" id="contact">
       <div className="container">
         <div className="row">
           <div className="Contact__pagetitle col-1">

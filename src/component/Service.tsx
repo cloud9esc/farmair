@@ -6,7 +6,7 @@ import { ServiceCarousel } from './ServiceCarousel';
 
 const Service = () => {
   return (
-    <div className="Service">
+    <div className="Service" id="service">
       <div className="container">
         <div className="row">
           <div className="Service__pagetitle col-1">

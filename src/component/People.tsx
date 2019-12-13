@@ -7,7 +7,7 @@ import { members } from '../info';
 
 const People = () => {
   return (
-    <div className="People">
+    <div className="People" id="people">
       <div className="container">
         <div className="row">
           <div className="People__pagetitle col-1">

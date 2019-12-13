@@ -7,7 +7,7 @@ import { cards } from "../info";
 
 function About() {
   return (
-    <div className="About">
+    <div className="About" id="about">
       <div className="container">
         <div className="row">
           <div className="About__title col-1">

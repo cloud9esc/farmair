@@ -2,23 +2,46 @@ import React from 'react';
 import "./Header.scss";
 
 class Header extends React.Component {
+
+  scroll = (id: string) => {
+    const elmnt = document.getElementById(id);
+    if (elmnt !== null) {
+      elmnt.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
   render() {
     return (
       <div className="Header" >
         <div className="container">
           <div className="row">
-            <div className="Header__logo col-2">
+            <button
+              className="Header__logo col-2"
+              onClick={() => { this.scrollTop() }} >
               <img
                 alt="logo with typo"
                 src="/static/asset/logo_onlytypo.svg"
               />
-            </div>
+            </button>
             <div className="Header__menu offset-4 col-6">
               <ul>
-                <li>ABOUT</li>
-                <li>SERVICE</li>
-                <li>PEOPLE</li>
-                <li>CONTACT</li>
+                <li>
+                  <button onClick={() => this.scroll("about")}>
+                    ABOUT
+                  </button>
+                </li>
+                <li><button onClick={() => this.scroll("service")}>
+                  SERVICE
+                  </button></li>
+                <li><button onClick={() => this.scroll("people")}>
+                  PEOPLE
+                  </button></li>
+                <li><button onClick={() => this.scroll("contact")}>
+                  CONTACT
+                  </button></li>
               </ul>
             </div>
           </div>
