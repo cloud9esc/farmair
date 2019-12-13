@@ -1,3 +1,37 @@
 .Contact {
   height: 100vh;
+  //padding-top: 20vh;
+}
+
+.Contact__map {
+  padding-top: 25vh;
+  width: 100%;
+}
+
+.Contact__text {
+  padding-top: 25vh;
+}
+
+.Contact__title {
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.Contact__info {
+  margin-bottom: 80px;
+  ul {
+    text-align: left;
+    li {
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+}
+
+.Contact__bold {
+  font-weight: 600;
 }

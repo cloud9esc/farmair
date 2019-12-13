@@ -1,7 +1,7 @@
 import React from 'react';
 import './ValueCard.scss';
 
-const ValueCard = (props: { title: string, imageSource: string, description: string }) => {
+const ValueCard = (props: { title: string, imageSource: string, description: string[] }) => {
   return (
     <div className="ValueCard">
       <div className="ValueCard__image">
@@ -9,7 +9,9 @@ const ValueCard = (props: { title: string, imageSource: string, description: str
       </div>
       <div className="ValueCard__types">
         <h5>{props.title}</h5>
-        <p>{props.description}</p>
+        <div className="ValueCard__description">{props.description.map(item => (
+          <div key={item} >{item}</div>
+        ))}</div>
       </div>
     </div>
   )
