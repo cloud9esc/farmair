@@ -1,6 +1,9 @@
 .About {
   height: 100vh;
   background-color: #C5D5C1;
+  @media (max-width: 575px) {
+    height: 100%;
+  }
 }
 
 .About__cards {
@@ -8,4 +11,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 1500px) {
+    margin-top: 10vh;
+    height: 80vh;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 575px) {
+    height: 100%;
+    display: block;
+  }
 }

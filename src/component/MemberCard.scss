@@ -11,6 +11,10 @@
   @media (max-width: 1500px) {
     max-width: 60vw;
   }
+  @media (max-width: 575px) {
+    max-width: 80vw;
+    min-width: 0;
+  }
 }
 
 

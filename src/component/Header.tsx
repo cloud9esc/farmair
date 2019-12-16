@@ -19,14 +19,14 @@ class Header extends React.Component {
         <div className="container">
           <div className="row">
             <button
-              className="Header__logo col-2"
+              className="Header__logo col-6 col-md-2"
               onClick={() => { this.scrollTop() }} >
               <img
                 alt="logo with typo"
                 src="/static/asset/logo_onlytypo.svg"
               />
             </button>
-            <div className="Header__menu offset-4 col-6">
+            <div className="Header__menu col-12 offset-md-4 col-md-6">
               <ul>
                 <li>
                   <button onClick={() => this.scroll("about")}>
