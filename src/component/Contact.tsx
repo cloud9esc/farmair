@@ -10,10 +10,7 @@ const Contact = () => {
           <div className="Contact__pagetitle col-1">
             <PageTitle title="CONTACT" />
           </div>
-          <div className="col-5">
-            <img alt="map" src="/static/asset/adress.jpg" className="Contact__map" />
-          </div>
-          <div className="offset-1 col-4 Contact__text">
+          <div className="col-12 col-lg-4 Contact__text">
             <div className="Contact__title">LOCATION</div>
             <div className="Contact__info">
               <ul>
@@ -39,6 +36,9 @@ const Contact = () => {
                 </li>
               </ul>
             </div>
+          </div>
+          <div className="col-12 offset-md-1 col-md-5">
+            <img alt="map" src="/static/asset/adress.jpg" className="Contact__map" />
           </div>
         </div>
       </div>

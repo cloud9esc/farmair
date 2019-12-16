@@ -12,8 +12,9 @@
     max-width: 60vw;
   }
   @media (max-width: 575px) {
-    max-width: 80vw;
-    min-width: 0;
+    max-width: 40vw;
+    min-width: unset;
+    height: auto;
   }
 }
 
@@ -23,6 +24,13 @@
   max-width: 250px;
   min-width: 100px;
   margin-right: 24px;
+  @media (max-width: 575px) {
+    float: unset;
+    min-width: unset;
+    width: 30vw;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
   img {
     border-radius: 50%;
     width: 100%;
@@ -45,5 +53,8 @@
   .MemberCard__comment {
     font-size: 16px;
     word-break: keep-all;
+    @media (max-width: 575px) {
+      display: none;
+    }
   }
 }

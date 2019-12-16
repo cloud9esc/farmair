@@ -1,6 +1,9 @@
 .People {
   height: 100vh;
   background-color: #C5D5C1;
+  @media (max-width: 575px) {
+    height: auto;
+  }
 }
 
 .People__cards {
@@ -13,5 +16,11 @@
   @media (max-width: 1500px) {
     margin-top: 10vh;
     height: 80vh;
+  }
+  @media (max-width: 575px) {
+    height: auto;
+    margin-top: 40px;
+    height: auto;
+    //display: block;
   }
 }

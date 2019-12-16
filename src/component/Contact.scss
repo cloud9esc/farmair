@@ -1,15 +1,25 @@
 .Contact {
   height: 100vh;
   //padding-top: 20vh;
+  @media (max-width: 575px) {
+    height: auto;
+  }
 }
 
 .Contact__map {
   padding-top: 25vh;
   width: 100%;
+  @media (max-width: 575px) {
+    padding-top: 0;
+    margin-bottom: 80px;
+  }
 }
 
 .Contact__text {
   padding-top: 25vh;
+  @media (max-width: 575px) {
+    padding-top: 80px;
+  }
 }
 
 .Contact__title {
@@ -23,6 +33,7 @@
   margin-bottom: 80px;
   ul {
     text-align: left;
+    padding-left: 0;
     li {
       margin-bottom: 12px;
       display: flex;

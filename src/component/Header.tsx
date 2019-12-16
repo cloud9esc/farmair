@@ -19,7 +19,7 @@ class Header extends React.Component {
         <div className="container">
           <div className="row">
             <button
-              className="Header__logo col-6 col-md-2"
+              className="Header__logo col-12 col-md-2"
               onClick={() => { this.scrollTop() }} >
               <img
                 alt="logo with typo"

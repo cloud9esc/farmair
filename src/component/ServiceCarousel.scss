@@ -36,6 +36,9 @@
       }
     }
     .ServiceCarousel__description {
+      @media (max-width: 575px) {
+        display: none;
+      }
       width: 70%;
       div {
         font-size: 16px;
