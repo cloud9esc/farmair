@@ -22,7 +22,7 @@
   padding-bottom: 15px;
   //vertical-align: top;
   text-align: start;
-  @media (max-width: 575px) {
+  @media (max-width: 991px) {
     text-align: center;
   }
   img {
@@ -34,12 +34,12 @@
   padding-top: 5px;
   text-align: end;
   font-family: 'Josefin Sans', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
-  @media (max-width: 575px) {
-    //text-align: start;
+  @media (max-width: 991px) {
+    text-align: center;
     padding-top: 0;
   }
   ul {
-    @media (max-width: 575px) {
+    @media (max-width: 991px) {
       padding-left: 0;
     }
     li {
@@ -60,10 +60,14 @@
       @media (max-width: 1200px) {
         margin-left: 40px;
       }
+      @media (max-width: 991px) {
+        margin-left: 20;
+        margin-right: 20px;
+      }
       @media (max-width: 575px) {
         font-size: 14px;
-        margin-left: 0;
-        margin-right: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
       }
     }
   }
