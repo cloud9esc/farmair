@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 475 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path d="M64.33,72.082C45.984,72.082 31.089,57.188 31.089,38.842C31.089,20.496 45.984,5.601 64.33,5.601L409.191,5.601L409.406,5.602C427.654,5.717 442.432,20.567 442.432,38.842C442.432,57.188 427.538,72.082 409.191,72.082L64.33,72.082Z" style="fill:white;stroke:rgb(6,90,0);stroke-width:1px;"/>
+    <g id="Artboard1" transform="matrix(1.75517,0,0,0.712188,-9.77377,-8.35758)">
+        <rect x="5.569" y="11.735" width="270.151" height="109.077" style="fill:none;"/>
+        <g transform="matrix(0.541257,0,0,1.40412,32.3295,-9.66989)">
+            <text id="_-BONFARMERS-" serif:id="(BONFARMERS)" x="29.106px" y="71.654px" style="font-family:'JosefinSans-SemiBold', 'Josefin Sans';font-weight:600;font-size:48px;">BONF<tspan x="165.926px " y="71.654px ">A</tspan>RMERS</text>
+        </g>
+    </g>
+</svg>

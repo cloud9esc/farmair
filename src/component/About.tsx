@@ -14,14 +14,17 @@ function About() {
             <PageTitle title="ABOUT" />
           </div>
           <div className="About__cards col-10" >
+            <div className="row">
+              
             {cards.map(item => (
-              <React.Fragment key={item.title}>
+              <div key={item.title} className="col-12 col-lg-6 col-xl-3">
                 <ValueCard
                   title={item.title}
                   imageSource={item.imageSource}
                   description={item.description} />
-              </React.Fragment>
+              </div>
             ))}
+            </div>
           </div>
         </div>
       </div>

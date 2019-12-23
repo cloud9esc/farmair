@@ -37,6 +37,7 @@
 .Landing__image {
   height: 100vh;
   padding-top: 20vh;
+
   @media (max-width: 959px) {
     height: 100%;
     padding-top: 0;
@@ -47,6 +48,9 @@
   img {
     max-width: 700px;
     //height: 500px;
-    width: 60vw;
+    //width: 60vw;
+    @media (max-width: 1199px) {
+      width: 100%;
+    }
   }
 }

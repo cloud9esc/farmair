@@ -1,7 +1,7 @@
 .People {
   height: 100vh;
   background-color: #C5D5C1;
-  @media (max-width: 575px) {
+  @media (max-width: 1500px) {
     height: auto;
   }
 }
@@ -14,13 +14,17 @@
   justify-content: space-between;
   align-items: center;
   @media (max-width: 1500px) {
-    margin-top: 10vh;
-    height: 80vh;
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+    height: auto;
+  }
+  @media (max-width: 1200px) {
+    text-align: start;
   }
   @media (max-width: 575px) {
     height: auto;
     margin-top: 40px;
-    height: auto;
+    margin-bottom: 0;
     //display: block;
   }
 }

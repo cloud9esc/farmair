@@ -1,7 +1,7 @@
 .About {
   height: 100vh;
   background-color: #C5D5C1;
-  @media (max-width: 575px) {
+  @media (max-width: 1199px) {
     height: 100%;
   }
 }
@@ -16,7 +16,7 @@
     height: 80vh;
     flex-wrap: wrap;
   }
-  @media (max-width: 575px) {
+  @media (max-width: 1199px) {
     height: 100%;
     display: block;
   }
